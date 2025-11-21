@@ -29,6 +29,7 @@ TARGET_SCREEN_WIDTH := 720
 
 ## Inherit some common Miku stuff
 $(call inherit-product, vendor/miku/build/product/miku_product.mk)
+MIKU_MASTER := Bruhboy666Dev
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := a21s
